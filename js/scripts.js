@@ -11,5 +11,16 @@ $(document).ready(function() {
   $(".sport").text(array[1]);
   $(".color").text(array[2]);
   $(".season").text(array[3]);
+
+  var newArray = [];
+  newArray.push(array[0]);
+  newArray.push(array[1]);
+  newArray.push(array[2]);
+
+  $("#list").append("<li>"+newArray[0]+"</li>");
+  $("#list").append("<li>"+newArray[1]+"</li>");
+
+  $("#results").show();
+  $("#list").show();
   });
 });

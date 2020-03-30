@@ -1,3 +1,7 @@
-#result {
+#results {
+  display: none;
+}
+
+#list {
   display: none;
 }
