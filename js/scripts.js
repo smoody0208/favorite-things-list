@@ -19,6 +19,8 @@ $(document).ready(function() {
 
   $("#list").append("<li>"+newArray[0]+"</li>");
   $("#list").append("<li>"+newArray[1]+"</li>");
+  $("#list").append("<li>"+newArray[2]+"</li>");
+
 
   $("#results").show();
   $("#list").show();
