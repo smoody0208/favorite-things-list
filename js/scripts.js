@@ -6,7 +6,9 @@ $(document).ready(function() {
 
   var sportInput = $("input#sport").val();
 
-  
+  var colorInput = $("input#color").val();
+
+  var seasonInput = $("input#season").val();
   
   }
 }
